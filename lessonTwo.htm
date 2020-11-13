@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>lesson Two</title>
+    <meta name="viewport" content="width=device-width, initial-cale=1.0">
+    <meta name="tutorial" content="learn HTML tutorial">
+    <base href="https://www.w3schools.com/" target="_blank" >
+    <style>
+     body{background-color: yellow}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+header {
+  background-color: lightgreen;
+  padding: 10px;
+  text-align:center;
+  color: tomato
+}
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+nav a{
+  list-style-type: none;
+  padding: 0;
+}
+.table{
+ float: left;
+ padding: 20px;
+ background-color: blue;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+    <script>
+        function changeBackground(){
+	document.getElementById("body").style.backgroundColor = "red"
+}
+    </script>
+  </head>
+  <body id="body">
+  <header><p>This is header</p></header>
+ <section>
+<nav>
+ <a href="#">first nav</a>
+ <a href="#">second nav</a>
+</nav>
+    <table border="1" class="table">
+     <caption>Table Caption</caption>
+     <tr>
+       <th>Name</th>
+       <th>Age</th>
+       <th>Address</th>
+     </tr>
+     <tr>
+       <td>LuongLegend</td>
+       <td>20</td>
+       <td>VietNam</td>
+     </tr>
+    </table>
+    <button id="btn1" onClick="changeBackground()">click me</button>
+</section>
+  <footer><p>This is footer</p></footer>
+  </body>
+</html>

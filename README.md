@@ -58,10 +58,44 @@
   * __cite__: work title
   * __bdo__: Bi-Directional Override text
     * __dir__: direction. "rtl" or "ltr"
-
+  * __ul__: unordered list
+    * __li__: list item
+	* __type__: circle/default/rect
+  * __ol__: ordered list
+    * __li__: list item
+  * __dl__: description list
+    * __dt__: define term
+	* __dd__: define each term
+  * __iframe__: an inline frame
+    * src: source
+	* title: required
+	* height/width
+	* name
+  * __table__
+    * attribute: border
+	* __caption__
+    * __tr__: table row
+	  * __th__: table header
+	  * __td__: 
+  * __script__: define js
+* __Block-level Elements__: always start on a new line and take up full width avaiable
+  * p, address, h1-h6, dl, dd, dt, hr, ul,ol,li, div, video, article,header, pre,table....
+* __Inline-element__: does not start a new line and take up as much width necessary
+  * span, a, button, b, i, img, strong, time, q, sub, sup, input,textarea....
+* __javascript__: dynamic and interactive web page
+* __head__: contain metadata: style, title, script...
+  * __link__: link to external resource
+    * rel
+	* href
+  * __meta__: SEO, specify character set, page description, keywords, author, viewport
+    * name: key. || "viewport"
+	* content: content to search || "width=device-width, initial-scale=1.0" display content depend on device
+  * __base__: define relative URLs in a page
 * __NOTE__:
   * attribute always is lowercase
   * attribute must have double/single quotes around
+  * class attribute can be used on __any__ HTML element
+  * id attribute: be used on only one HTML element
   * <!-- this is a comment text -->
 ## CSS
 > used to format the layout of a webpage
@@ -69,6 +103,6 @@
  * __How to use__
    * Inline: use style attribute inside HTML elements
    * Internal: use <style> element in the <head> section
-   * External: use <link> element to link an external CSS file
+   * External: use <link> ele*ment to link an external CSS file
  * custom tag
    * a:link/visited/hover/active
