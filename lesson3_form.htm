@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Learn about Form</title>
+</head>
+ <body>
+  <form target="_blank" method="post" autocomplete="on" style="display:flex" oninput="o.value=parseInt(r.value)+parseInt(n.value)">
+    <fieldset>
+    <legend>Login form</legend>
+    <label for="fname">Username: </label>
+    <input type="text" name="fname" id="fname" autofocus autocomplete="on"></input></br>
+    <label for="upass">Password: </label>
+    <input type="password" name="password" id="upass"></input> </br>
+    <label for="color">Choose color: </label>
+    <input type="color" id="color" name="color"></input></br>
+    <label for="date">Date: </label>
+    <input type="date" id="date" name="date"></input></br>
+    <label for="avatar">Choose avatar: </label>
+   <input type="date" id="date" name="date"></input></br>
+    <label for="phone">Phone number: </label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"></input></br>
+    <label for="fblink">Your facebook profile: </label>
+   <input type="url" id="fblink" name="fblink"></input></br>
+
+    <label for="country">Country:</label>
+    <select size="2" id="country" name="country" multiple>
+	<option value="1">China</option>
+  	<option value="2">Island</option>
+	<option value="3">VietNam</option>
+	<option value="4">USA</option>
+    </select></br>
+<input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist></br>
+   <input type="range" value="50" id="r" name="r"></input> + <input type="number" value="20" id="n" name="n" step="5"></input> = 
+  <output for="r n" name="o"></output> </br>
+   <input type="reset" name="reset"></input></br>
+   <input type="submit" name="submit"></input> </br>
+   </fieldset>
+  </form>
+
+ </body>
+</html>

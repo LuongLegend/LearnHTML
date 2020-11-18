@@ -2,8 +2,9 @@
 ## Study with [W3SCHOOL](https://www.w3schools.com/default.asp)
 >HTML describes the structure of a Web page
 >
-* __HTML tags__:
-    * color: tomato, gray, orange, violet, lightgray, slateblue, dodgerblue, mediumseagreen
+### __HTML tags__:
+>color: tomato, gray, orange, violet, lightgray, slateblue, dodgerblue, mediumseagreen
+>
   * __h1-h6__: heading
   * __p__: page
     * style: change color,background-color,font-family,font-size,text-align,border...
@@ -100,7 +101,41 @@
     * name: key. || "viewport"
 	* content: content to search || "width=device-width, initial-scale=1.0" display content depend on device
   * __base__: define relative URLs in a page
-* __NOTE__:
+* __form__
+  * action: file to redirect after submit
+  * target: 
+  * method: get | post
+  * autocomplete: on | off : autocompele data entered before
+  * novalidate
+  * _oninput_: action caculate inputvalue. ex: x.value=parseInt(a.value)+parseInt(b.value)
+* __input__
+  * type: button|text|submit|checkbox|radio|range|number|reset|color|date|datetime-local|email|file|month|tel|search
+  * name
+  * value
+  * list: a list to
+  * pattern: to check input value
+  * required
+  * readonly
+  * disable
+  * placeholder
+  * step: step of input type's number
+  * autofocus
+* __lable__
+  * for: link to input's id
+* __textarea__: multiple input text
+  * cols: number width
+  * rows: number line
+* __select__
+  * size: size to display
+  * multiple: to select multiple
+* __option__
+  * selected
+* __button__
+* __fieldset__: group related data in a format
+* __legend__: caption of a fieldset
+* __datalist__: a list to choose in a input list. id=list'input
+* __output__: caculate between inputs
+### __NOTE__:
   * attribute always is lowercase
   * attribute must have double/single quotes around
   * class attribute can be used on __any__ HTML element
