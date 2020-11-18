@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
     <title>lesson Two</title>
-    <meta name="viewport" content="width=device-width, initial-cale=1.0">
-    <meta name="tutorial" content="learn HTML tutorial">
-    <base href="https://www.w3schools.com/" target="_blank" >
+    <meta name="viewport" content="width=device-width, initial-cale=1.0" />
+    <meta name="tutorial" content="learn HTML tutorial"/>
+    <meta charset="UTF-8"/>
+    <base href="https://www.w3schools.com/" target="_blank" />
     <style>
-     body{background-color: yellow}
+     body{background-color: none}
 footer {
   background-color: #777;
   padding: 10px;
@@ -39,6 +40,12 @@ section:after {
   display: table;
   clear: both;
 }
+@media (max-width: 600px){
+  nav, table{
+   width:100%;
+   height: auto
+}
+}
     </style>
     <script>
         function changeBackground(){
@@ -53,7 +60,8 @@ section:after {
  <a href="#">first nav</a>
  <a href="#">second nav</a>
 </nav>
-    <table border="1" class="table">
+ <div class="table">
+    <table  border="1">
      <caption>Table Caption</caption>
      <tr>
        <th>Name</th>
@@ -67,7 +75,16 @@ section:after {
      </tr>
     </table>
     <button id="btn1" onClick="changeBackground()">click me</button>
+</div>
 </section>
-  <footer><p>This is footer</p></footer>
+  <footer>
+<p>This is footer</p></footer>
+<code>
+ <var>x</var> = 1;</br>
+ <var>y</var> = 2;</br>
+ <var>x</var> + <var>y</var> = 3;
+</code>
+<p>Press <kbd>Ctr+S</kbd> to save</p>
+<p><samp>Error - please try again! </samp></p>
   </body>
 </html>

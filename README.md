@@ -78,6 +78,15 @@
 	  * __th__: table header
 	  * __td__: 
   * __script__: define js
+  * __code__: write computer code
+  * __kbd__: define keyboard input
+  * __samp__: sample out put
+  * __var__: define variable mathematical
+  * __article__: used for forum post, blog post, newspaper post
+  * __section__: contain article, 
+  * __nav__: contain navigate link 
+  * __aside__: relative content like side bar
+  * __figure,figcaption__: specify self-contained content like diagrams, photos, code listing, etc
 * __Block-level Elements__: always start on a new line and take up full width avaiable
   * p, address, h1-h6, dl, dd, dt, hr, ul,ol,li, div, video, article,header, pre,table....
 * __Inline-element__: does not start a new line and take up as much width necessary
@@ -97,12 +106,17 @@
   * class attribute can be used on __any__ HTML element
   * id attribute: be used on only one HTML element
   * <!-- this is a comment text -->
-## CSS
+# CSS
 > used to format the layout of a webpage
 >
  * __How to use__
    * Inline: use style attribute inside HTML elements
    * Internal: use <style> element in the <head> section
-   * External: use <link> ele*ment to link an external CSS file
+   * External: use <link> element to link an external CSS file
  * custom tag
    * a:link/visited/hover/active
+ * 1vw = 1% of viewport width
+## media query
+> define how the page display with changing size display
+>
+ 
